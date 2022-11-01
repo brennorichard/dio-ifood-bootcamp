@@ -1,1 +1,47 @@
 Download git: https://git-scm.com/downloads
+Configurando JAVA no Visual Studio Code: 
+
+---- JAVA ----
+
+FUNDAMENTOS:
+Linguagem composta por um conjunto bem definido de funcionalidades (features)
+
+Simples: Simples e fácil de compreender, pois não contém complexidade como outras linguagens mais antigas, isso se houver uma boa constância de estudos
+Orientada a Objetos: Classe e o Objeto, Encapsulamento, Abstração, Herança e Polimorfismo
+Plataforma independente: O objetivo é desenvolver uma linguagem que funciona em qualquer plataforma
+Portátil: O código pode ser reproduzido em plataformas diferentes
+Robusta: É capaz de lidar com encerramento inesperado de um programa, usa gerenciamento de memória forte, coleta de lixo automática, há tratamento de exceção e mecanismo de verificação de tipo em JAVA
+Segura: Fornece recursos de segurança para os programadores
+Interpretada: O JAVA utiliza compilador e interpretador. Os programas em JAVA são compilados para gerar arquivos de bytecode e a JVM interpreta o arquivo de bytecode durante a execução
+Multi-Thread: Thread é um processo leve e independente de um programa em execução, ou seja, processo que compartilha recursos. Multi-Threading é o nome dados ao processo de vários threads sendo executados simultaneamente
+
+HISTÓRIA:
+Baseada em C e C++
+James Gosling (idealizador)
+Já existia uma linguagem chamada OAK e então o nome JAVA foi sugerido
+
+Onde é utilizada?
+- Páginas Web com conteúdo interativo
+- Aplicações corporativas de grande porte
+- Softwares destinados ao consumidor final
+- Aplicativos e Smartphones
+
+25 anos de JAVA
+
+INTRODUÇÃO AS IDE's:
+- Necessário para aumentar nossa produtividade
+- Aceleração de escrita
+- Intellicense
+- Formatação de palavras e blocos de código
+- Análise de erro e sintaxe
+- Compilação de programa
+- Depuração (acompanhamento) de execução do programa
+
+Cada IDE dispõe de recursos comuns ou plugins específicos para melhora na agildiade de desenvolvimento
+Exemplos de IDE:
+- VScode
+- NetBeans
+- Eclipse
+- IntelliJ
+
+
