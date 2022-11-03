@@ -86,4 +86,29 @@ Tipo - Nome bem definido - Valor (com tipagem específica)
 Método:
 Tipo de retorno - Nome objetivo no infinitivo - Parâmetros
     
+TIPOS E VARIÁVEIS
+Primitivas:
+int, byte, short, long, float, double, boolean e char
 
+DECLARAÇÃO
+	tipo de dados + identificação + valor atribuído
+	int anoFabricacao = 2021
+
+Tipo float, sempre colocar F no final
+Valor int que se inicia em 0 não é interpretado corretamente, então o correto seria usar o tipo String
+
+Variáveis e Constantes
+
+Constante - Não pode ser alterada
+Variável - Valor pode ser alterado
+
+OPERADORES
+Símbolos especiais que tem um siginificado prório para a linguagem e estão associados a determinadas operações
+
+Atribuição =
+Aritméticos +, -, *, /, %...
+(Quando o + for usado em variáveis do tipo String, ele realizará concatenação de texto)
+Unários +, -, ++, --, !
+Ternários ?:
+Relacionais ==, !=, >, <, >=, <=
+Lógicos && (e), || (ou)
