@@ -44,4 +44,46 @@ Exemplos de IDE:
 - Eclipse
 - IntelliJ
 
+SINTAXE - JAVA BÁSICO
+1 - Anotomia das classes
+"Uma classe bem estruturada não quer guerra com ninguém"
+
+Classe: Pessoa
+Atributos: Nome, idade, peso, altura
+Métodos: Andar, falar, pensar
+Objetos: Maria e Pedro
+
+- Arquivo .java = Sempre primeira letra maiúscula
+Classe = Nome do arquivo
+
+- Variável = Começa com letra minúscula, e se tiver outra palavra, deve começar com letra maiúscula. EX: calculadoraCientifica
+
+Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor.
+Exemplo: queremos determinar que uma variável de nome br sempre representará "Brasil" e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
+
+1   String BR = "Brasil"
+2   double PI = 3,14
+3   int ESTADOS_BRASILEIRO = 26
+4   int ANO_2000 = 2000
+
+final - Variável não pode ser alterada
+EX: final String BR = "Brasil"
+
+REGRAS para declaração de variáveis
+- Deve conter apenas letras, _(underline), $ ou os números de 0 a 9
+- Deve obrigatóriamente se iniciar por uma letra(preferencialmente), _ ou $, jamais com número
+- Deve iniciar com uma letra minúscula
+- Não pode conter espaços
+- Não podemos usar palavras-chave da linguagem
+- O nome deve ser único dentro de um escopo 
+
+DECLARAÇÃO DE VARIÁVEIS E MÉTODOS
+Como identificar entre declaração de variáveis ou métodos?
+
+Variável:
+Tipo - Nome bem definido - Valor (com tipagem específica)
+
+Método:
+Tipo de retorno - Nome objetivo no infinitivo - Parâmetros
+    
 
