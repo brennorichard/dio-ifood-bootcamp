@@ -112,3 +112,63 @@ Unários +, -, ++, --, !
 Ternários ?:
 Relacionais ==, !=, >, <, >=, <=
 Lógicos && (e), || (ou)
+
+MÉTODOS
+Os métodos correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes
+- Deve ser nomeado como verbo
+- Seguir padrão camelCase
+
+ATENÇÃO: Não existe conceito de métodos globais em JAVA
+
+ESCOPO
+Ambiente onde uma variável pode ser acessada
+
+PALAVRAS RESERVADAS
+Identificadores com funções específicas, nomes reservados que não podem ser usados como variáveis
+
+Controle de pacotes:
+- import: importa classes ou pacotes para dentro do código
+- package: especifica a que pacote todas as classes de um arquivo pertencem
+
+Modificadores de acesso:
+- public
+- private
+- protected: acesso por classes no mesmo pacote e subclasses
+
+Primitivos:
+- boolean
+- byte
+- char
+- double
+- float
+- int 
+- long
+- short
+- void: indica que o método não tem retorno
+
+Modificadores de classes, variáveis ou métodos:
+- abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+- class: especifica uma classe
+- extends: indica a superclasse que a subclasse está estendendo
+- final: impossibilita que uma classe seja estendida
+- implements: indica as interfaces que uma classe irá implementar
+- interface: especifica interface
+- native: indica que o método está escrito em uma linguagem dependente de plataforma, como o C
+- new: Instancia um novo objeto
+- static: faz um método ou variável pertencer à classe ao invés de às instâncias
+- strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
+- synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- transcient: impede a serialização de campos
+- volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+Controle de fluxo dentro de um bloco de código:
+- break: sai do bloco de código em que ele está
+- case: executa um bloco de código dependendo do teste do switch
+- continue: pula a execução do código que viria após essa linha e vai para a próxima passadem do loop
+
+JAVADOC
+//
+/*
+/**
+
+javadoc -encoding UTF-8 -d ocencoding ISO8859-1 -d ...docs scr/*.java
