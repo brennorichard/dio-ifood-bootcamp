@@ -1,0 +1,14 @@
+-----Estruturas de repetição e Arrays em Java-----
+
+- Cada repitição é chamada laço (loop)
+
+Tipos:
+- Repetição com teste no início (while)
+- Repetição com teste no final (do-while)
+- Repetição contada (for)
+
+- Break - Termina o programa de forma abrupta
+
+Array -> Objeto utilizado para armazenar sequenciamente dados do mesmo tipo
+- Permanece com o mesmo tamanho depois de criados
+- São Unidimensionais ou Multidimensionais
