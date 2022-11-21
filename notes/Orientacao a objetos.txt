@@ -1,0 +1,66 @@
+Por que usar?
+- Tem uma apresentação mais realista
+- Foca na modelagem de entidades e nas interações entre elas
+- Foca mais no "o que fazer"
+
+Vantagens:
+- Melhor coesão
+- Melhor acoplamento
+- Diminuição do GAP semântico
+- Coletor de Lixo
+
+Fundamentos:
+- Abstração - pensar nas caracteristicas mais essênciais e descartas os acidentais
+- Reuso - Criar novas unidades de código a partir de outras já existentes
+- Encapsulamento - Capacidade de esconder complexidades e proteger dados
+
+Entidade "livro":
+- Capa
+- Páginas
+- Sumário
+- Tema
+- Idioma
+- Dimensões
+- Título
+- Sub-Título
+- Ano publicação
+
+Loja online:
+- Tema
+- Autor
+- Edição
+- Ano publicação
+
+ESTRUTURA
+- Classe
+- Atributo 
+- Método 
+- Objeto 
+- Mensagem
+
+CLASSE - Conceito
+- Unidade mínima e base da OO
+- Classe descreve os serviços de seus objetos
+
+Exemplos: Carro, Viagem, Bola, Venda, Comprador etc...
+
+Dicas:
+- Substantivos
+- Nomes significativos
+- Contexto deve ser considerado
+
+ATRIBUTOS - Representar características dos objetos dentro de uma classe
+- Substantivos e Adjetivos
+- Nomes significativos
+- Contexto deve ser considerado
+- Abstração
+- Tipos adequados
+
+MÉTODO - Subrotina disponibilizada pela classe, usado para realizar ações
+- Verbos
+- Nomes significativos
+- Contexto deve ser considerado
+
+Construtor e Destrutor
+Construtor: Constrói objetos a partir de nossas classes
+Destrutor: 
