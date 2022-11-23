@@ -63,4 +63,90 @@ MÉTODO - Subrotina disponibilizada pela classe, usado para realizar ações
 
 Construtor e Destrutor
 Construtor: Constrói objetos a partir de nossas classes
-Destrutor: 
+Destrutor
+
+HERANÇA
+Relacionamento entre classes a partir de subclasses
+
+Tipos de Herança
+Simples: Classe filha com apenas uma classe mãe
+Múltipla: Classe filha tem uma ou mais classes mãe
+
+(Java não tem herança múltipla)
+
+Upcast: Subir os tipos, subir a hierarquia de classes
+Downcast: Descer os tipos, descendo a hierarquia de classes
+
+A a = new B();
+
+B a = (B) new A();
+
+POLIMORFISMO E SOBRESCRITA
+ "A mesma ação, se comportando diferente"
+ação = método
+
+ Sobrescrita:
+ "A mesma ação, podendo se comportar diferente"
+
+@override - para sobrescrita
+
+Associação
+Possibilita relacionamento entre classes/objetos onde um pode usar o outro
+
+Tipos:
+Estrutural
+-Composição
+-Agregação
+
+Comportamental
+-Dependência
+
+Estrutural:
+- "Com Parte Todo"
+Ex. Pessoa e Endereço
+Um precisa do outro para existir
+
+class Pessoa{
+	Endereco endereco;
+}
+
+Agregação:
+- "Sem Parte Todo"
+Ex. Disciplina e Aluno
+Um porde existir sem o outro
+
+class Disciplina{
+	Aluno aluno;
+}
+
+Comportamental
+Dependência:
+- "Depende de..."
+
+class Compra{
+	...
+	finalizar(Cupom, cupom, ...)
+		...
+	}
+}
+
+INTERFACE
+Define contrato que deve ser seguido pela classe que a implementa
+
+PACOTES
+Organização física u lógica criada para separa classes com responsabilidade distintas.
+
+package ...;
+import ...;
+
+VISIBILIDADES
+Modificam acesso de classe, atributo ou método, determina até que ponto pode ser usado.
+
+Tipos:
+-Private
+-Protected
+-Public
+
+Private: Só dentro da classe
+Protected: Dentro da classe, mesmo pacote e subclasse
+
